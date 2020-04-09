@@ -1,0 +1,12 @@
+/Users/muratvuranok/Desktop/blog/blog.business/bin/Debug/netcoreapp3.1/blog.business.deps.json
+/Users/muratvuranok/Desktop/blog/blog.business/bin/Debug/netcoreapp3.1/blog.business.dll
+/Users/muratvuranok/Desktop/blog/blog.business/bin/Debug/netcoreapp3.1/blog.business.pdb
+/Users/muratvuranok/Desktop/blog/blog.business/bin/Debug/netcoreapp3.1/blog.data.dll
+/Users/muratvuranok/Desktop/blog/blog.business/bin/Debug/netcoreapp3.1/blog.data.pdb
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.csprojAssemblyReference.cache
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.csproj.CoreCompileInputs.cache
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.AssemblyInfoInputs.cache
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.AssemblyInfo.cs
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.csproj.CopyComplete
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.dll
+/Users/muratvuranok/Desktop/blog/blog.business/obj/Debug/netcoreapp3.1/blog.business.pdb
