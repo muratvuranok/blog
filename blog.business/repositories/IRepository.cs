@@ -10,5 +10,7 @@ namespace blog.business.repositories
         void Delete(Guid id);
         T GetById(Guid id);
         IEnumerable<T> GetAll();
+
+        void RollBack();
     }
 }

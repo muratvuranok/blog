@@ -2,8 +2,8 @@
 /Users/muratvuranok/Desktop/blog/blog.data/bin/Debug/netcoreapp3.1/blog.data.dll
 /Users/muratvuranok/Desktop/blog/blog.data/bin/Debug/netcoreapp3.1/blog.data.pdb
 /Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.csprojAssemblyReference.cache
-/Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.csproj.CoreCompileInputs.cache
 /Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.AssemblyInfoInputs.cache
 /Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.AssemblyInfo.cs
+/Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.csproj.CoreCompileInputs.cache
 /Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.dll
 /Users/muratvuranok/Desktop/blog/blog.data/obj/Debug/netcoreapp3.1/blog.data.pdb

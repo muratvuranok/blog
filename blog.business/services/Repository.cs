@@ -16,12 +16,19 @@ namespace blog.business.services
             this._context = context;
             this._entities = context.Set<T>();
         }
- 
+
         public void Add(T entity)
         {
             if (entity == null) throw new ArgumentNullException("entity");
             _entities.Add(entity);
-            _context.SaveChanges();
+            try
+            {
+                _context.SaveChanges();
+            }
+            catch
+            {
+                RollBack();
+            }
         }
         public void Update(T entity)
         {
@@ -45,6 +52,11 @@ namespace blog.business.services
         public IEnumerable<T> GetAll()
         {
             return _entities.AsEnumerable();
+        }
+
+        public void RollBack()
+        {
+            _context.Dispose();
         }
     }
 }

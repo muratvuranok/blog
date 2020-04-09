@@ -1,0 +1,14 @@
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.csprojAssemblyReference.cache
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.AssemblyInfoInputs.cache
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.AssemblyInfo.cs
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.csproj.CoreCompileInputs.cache
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.root.deps.json
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.root.dll
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.root.pdb
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.business.dll
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.data.dll
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.business.pdb
+/Users/muratvuranok/Desktop/blog/blog.root/bin/Debug/netcoreapp3.1/blog.data.pdb
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.csproj.CopyComplete
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.dll
+/Users/muratvuranok/Desktop/blog/blog.root/obj/Debug/netcoreapp3.1/blog.root.pdb
