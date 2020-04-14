@@ -31,6 +31,11 @@ namespace blog.ui
             app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
+
+
+
+
+                
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=home}/{action=index}/{id?}"
@@ -39,3 +44,4 @@ namespace blog.ui
         }
     }
 }
+ 

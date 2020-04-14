@@ -4,7 +4,7 @@ namespace blog.data.models
     using System.ComponentModel.DataAnnotations;
     using System.Collections.Generic;
     public class Post : CoreEntity
-    { 
+    {
         [
             Required,
             MaxLength(100)
@@ -12,6 +12,7 @@ namespace blog.data.models
         public string Title { get; set; }
         [Required]
         public string Content { get; set; }
+        [DataType(DataType.Date)]
         public DateTime CreatedDate { get; set; }
         public string FullName { get; set; }
 

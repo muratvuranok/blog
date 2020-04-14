@@ -16,7 +16,7 @@ namespace blog.root
             services.AddScoped(typeof(IPostImageRepository), typeof(PostImageService));
             services.AddScoped(typeof(ICategoryRepository), typeof(CategoryService));
             services.AddDbContext<blogcontext>(options =>
-            options.UseSqlServer("server=;uid=u8924044_blog;database=u8924044_blog; pwd=EGyz66W3RBcx36U", x => x.MigrationsAssembly("blog.data")));
+            options.UseSqlServer("server=94.73.170.10;uid=u8924044_blog;database=u8924044_blog; pwd=XEqn52D8VDxe84U", x => x.MigrationsAssembly("blog.ui")));
         }
     }
 }

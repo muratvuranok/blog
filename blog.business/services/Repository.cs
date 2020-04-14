@@ -7,6 +7,8 @@ namespace blog.business.services
     using data.context;
     using Microsoft.EntityFrameworkCore;
     using System.Linq;
+    using System.Linq.Expressions;
+
     public class Repository<T> : IRepository<T> where T : CoreEntity
     {
         private readonly blogcontext _context;
@@ -32,7 +34,10 @@ namespace blog.business.services
         }
         public void Update(T entity)
         {
-            if (entity == null) throw new ArgumentNullException("entity");
+            if (entity == null)
+                throw new ArgumentNullException("entity");
+
+            _context.Entry(entity).State = EntityState.Modified;
             _context.SaveChanges();
         }
         public void Delete(Guid id)
@@ -58,5 +63,36 @@ namespace blog.business.services
         {
             _context.Dispose();
         }
+
+        public int Save()
+        {
+            return _context.SaveChanges();
+        }
+
+        public bool Any(Expression<Func<T, bool>> exp)
+        {
+            return _entities.Any(exp);
+        }
+
+        public void Delete(T item)
+        {
+            _entities.Remove(item);
+        }
+
+        public void Delete(Expression<Func<T, bool>> exp)
+        { 
+            _entities.RemoveRange(GetDefault(exp));
+        }
+
+        public IEnumerable<T> GetDefault(Expression<Func<T, bool>> exp)
+        {
+            return _entities.Where(exp);
+        }
+
+
+        // public bool SaveChanges()
+        // {
+        //     return _context.SaveChanges() > 0 ? true : false;
+        // }
     }
 }
