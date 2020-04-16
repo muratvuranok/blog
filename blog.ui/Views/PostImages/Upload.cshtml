@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Resim Yükleme Ekranı";
+}
+
+
+<form action="/postimages/upload" class="dropzone" enctype="multipart/form-data">
+<input type="hidden" name="id" value="@Model">
+  <div class="fallback">
+    <input name="file" type="file" multiple />
+  </div>
+</form>

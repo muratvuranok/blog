@@ -27,6 +27,7 @@
           "Microsoft.EntityFrameworkCore.Design": "3.1.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.2",
           "blog.business": "1.0.0",
+          "blog.data": "1.0.0",
           "blog.root": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -2126,8 +2127,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.Extensions.DependencyInjection": "3.1.3",
-          "blog.business": "1.0.0",
-          "blog.data": "1.0.0"
+          "blog.business": "1.0.0"
         },
         "runtime": {
           "blog.root.dll": {}

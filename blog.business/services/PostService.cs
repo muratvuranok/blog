@@ -5,7 +5,6 @@ namespace blog.business.services
     using data.context;
     public class PostService : Repository<Post>, IPostRepository
     {
-        public PostService(blogcontext context) : base(context) { }
-
+        public PostService(blogcontext context) : base(context) { } 
     }
 }

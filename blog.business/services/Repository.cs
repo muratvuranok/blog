@@ -32,7 +32,7 @@ namespace blog.business.services
                 RollBack();
             }
         }
-        public void Update(T entity)
+        public virtual void Update(T entity)
         {
             if (entity == null)
                 throw new ArgumentNullException("entity");

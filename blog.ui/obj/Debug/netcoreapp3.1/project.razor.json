@@ -20521,6 +20521,11 @@
   "RootNamespace": "blog.ui",
   "Documents": [
     {
+      "FilePath": "/Users/muratvuranok/Desktop/blog/blog.ui/Views/PostImages/Upload.cshtml",
+      "TargetPath": "Views\\PostImages\\Upload.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/muratvuranok/Desktop/blog/blog.ui/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

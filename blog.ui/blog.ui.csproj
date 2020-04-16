@@ -3,6 +3,9 @@
   <ItemGroup>
     <ProjectReference Include="..\blog.root\blog.root.csproj" />
     <ProjectReference Include="..\blog.business\blog.business.csproj" />
+    <ProjectReference Include="..\blog.data\blog.data.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 
   <ItemGroup>

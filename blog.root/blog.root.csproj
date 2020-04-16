@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\blog.business\blog.business.csproj" />
-    <ProjectReference Include="..\blog.data\blog.data.csproj" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>

@@ -11,13 +11,14 @@ using Microsoft.Extensions.Hosting;
 namespace blog.ui
 {
     using root;
-
+    using Utility;
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
             CompositionRoot.InjectDependencies(services);
             services.AddControllersWithViews();
+            services.AddTransient<IFileUpload, FileSystemFileUploader>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -31,11 +32,6 @@ namespace blog.ui
             app.UseStaticFiles();
             app.UseEndpoints(endpoints =>
             {
-
-
-
-
-                
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=home}/{action=index}/{id?}"
@@ -44,4 +40,3 @@ namespace blog.ui
         }
     }
 }
- 

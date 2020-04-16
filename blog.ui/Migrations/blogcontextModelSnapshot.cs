@@ -41,9 +41,6 @@ namespace blog.ui.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("CategoryId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -61,9 +58,22 @@ namespace blog.ui.Migrations
 
                     b.HasKey("Id");
 
+                    b.ToTable("Posts");
+                });
+
+            modelBuilder.Entity("blog.data.models.PostCategory", b =>
+                {
+                    b.Property<Guid>("PostId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("PostId", "CategoryId");
+
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Posts");
+                    b.ToTable("PostCategory");
                 });
 
             modelBuilder.Entity("blog.data.models.PostImage", b =>
@@ -88,11 +98,17 @@ namespace blog.ui.Migrations
                     b.ToTable("PostImages");
                 });
 
-            modelBuilder.Entity("blog.data.models.Post", b =>
+            modelBuilder.Entity("blog.data.models.PostCategory", b =>
                 {
                     b.HasOne("blog.data.models.Category", "Category")
-                        .WithMany("Posts")
+                        .WithMany("PostCategories")
                         .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("blog.data.models.Post", "Post")
+                        .WithMany("PostCategories")
+                        .HasForeignKey("PostId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

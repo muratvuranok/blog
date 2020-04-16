@@ -13,6 +13,9 @@
         "packagesPath": "/Users/muratvuranok/.nuget/packages/",
         "outputPath": "/Users/muratvuranok/Desktop/blog/blog.business/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/muratvuranok/.nuget/NuGet/NuGet.Config"
         ],
@@ -73,6 +76,9 @@
         "packagesPath": "/Users/muratvuranok/.nuget/packages/",
         "outputPath": "/Users/muratvuranok/Desktop/blog/blog.data/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/muratvuranok/.nuget/NuGet/NuGet.Config"
         ],
@@ -129,6 +135,9 @@
         "packagesPath": "/Users/muratvuranok/.nuget/packages/",
         "outputPath": "/Users/muratvuranok/Desktop/blog/blog.root/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/muratvuranok/.nuget/NuGet/NuGet.Config"
         ],
@@ -143,9 +152,6 @@
             "projectReferences": {
               "/Users/muratvuranok/Desktop/blog/blog.business/blog.business.csproj": {
                 "projectPath": "/Users/muratvuranok/Desktop/blog/blog.business/blog.business.csproj"
-              },
-              "/Users/muratvuranok/Desktop/blog/blog.data/blog.data.csproj": {
-                "projectPath": "/Users/muratvuranok/Desktop/blog/blog.data/blog.data.csproj"
               }
             }
           }
@@ -200,6 +206,9 @@
         "packagesPath": "/Users/muratvuranok/.nuget/packages/",
         "outputPath": "/Users/muratvuranok/Desktop/blog/blog.ui/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "/Users/muratvuranok/.nuget/NuGet/NuGet.Config"
         ],
@@ -214,6 +223,9 @@
             "projectReferences": {
               "/Users/muratvuranok/Desktop/blog/blog.business/blog.business.csproj": {
                 "projectPath": "/Users/muratvuranok/Desktop/blog/blog.business/blog.business.csproj"
+              },
+              "/Users/muratvuranok/Desktop/blog/blog.data/blog.data.csproj": {
+                "projectPath": "/Users/muratvuranok/Desktop/blog/blog.data/blog.data.csproj"
               },
               "/Users/muratvuranok/Desktop/blog/blog.root/blog.root.csproj": {
                 "projectPath": "/Users/muratvuranok/Desktop/blog/blog.root/blog.root.csproj"

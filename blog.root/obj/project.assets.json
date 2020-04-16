@@ -4961,12 +4961,12 @@
       "Microsoft.EntityFrameworkCore >= 3.1.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.3",
       "Microsoft.Extensions.DependencyInjection >= 3.1.3",
-      "blog.business >= 1.0.0",
-      "blog.data >= 1.0.0"
+      "blog.business >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/muratvuranok/.nuget/packages/": {}
+    "/Users/muratvuranok/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -4977,6 +4977,9 @@
       "packagesPath": "/Users/muratvuranok/.nuget/packages/",
       "outputPath": "/Users/muratvuranok/Desktop/blog/blog.root/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "/Users/muratvuranok/.nuget/NuGet/NuGet.Config"
       ],
@@ -4991,9 +4994,6 @@
           "projectReferences": {
             "/Users/muratvuranok/Desktop/blog/blog.business/blog.business.csproj": {
               "projectPath": "/Users/muratvuranok/Desktop/blog/blog.business/blog.business.csproj"
-            },
-            "/Users/muratvuranok/Desktop/blog/blog.data/blog.data.csproj": {
-              "projectPath": "/Users/muratvuranok/Desktop/blog/blog.data/blog.data.csproj"
             }
           }
         }
