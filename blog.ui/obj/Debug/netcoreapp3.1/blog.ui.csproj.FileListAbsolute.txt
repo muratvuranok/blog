@@ -307,3 +307,6 @@
 /Users/muratvuranok/Desktop/blogyedek/blog/blog.ui/obj/Debug/netcoreapp3.1/blog.ui.pdb
 /Users/muratvuranok/Desktop/blogyedek/blog/blog.ui/obj/Debug/netcoreapp3.1/blog.ui.genruntimeconfig.cache
 /Users/muratvuranok/Desktop/blog/blog.ui/obj/Debug/netcoreapp3.1/Razor/Views/PostImages/Upload.cshtml.g.cs
+/Users/muratvuranok/Desktop/blogyedek/blog/blog.ui/obj/Debug/netcoreapp3.1/Razor/Views/PostImages/Upload.cshtml.g.cs
+/Users/muratvuranok/Desktop/blog/blog.ui/bin/Debug/netcoreapp3.1/Properties/launchSettings 2.json
+/Users/muratvuranok/Desktop/blog/blog.ui/obj/Debug/netcoreapp3.1/Razor/Views/PostImages/Index.cshtml.g.cs

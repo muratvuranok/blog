@@ -1,9 +1,10 @@
+
 namespace blog.business.repositories
-{
-    using System;
+{ 
     using data.models;
+    using System.Collections.Generic; 
     public interface IPostImageRepository : IRepository<PostImage>
-    { 
-        void SetFalse(Guid id);
+    {
+        void SetFalse(IEnumerable<PostImage> images);
     }
 }

@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog.root", "blog.root\blog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog.data", "blog.data\blog.data.csproj", "{749A1488-43FE-4CDA-8CB3-A9D6B3C0F7F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blog.api", "blog.api\blog.api.csproj", "{0AE9867C-11AF-4DE2-814B-D147F9E75832}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,5 +74,17 @@ Global
 		{749A1488-43FE-4CDA-8CB3-A9D6B3C0F7F7}.Release|x64.Build.0 = Release|Any CPU
 		{749A1488-43FE-4CDA-8CB3-A9D6B3C0F7F7}.Release|x86.ActiveCfg = Release|Any CPU
 		{749A1488-43FE-4CDA-8CB3-A9D6B3C0F7F7}.Release|x86.Build.0 = Release|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Debug|x64.Build.0 = Debug|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Debug|x86.Build.0 = Debug|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Release|x64.ActiveCfg = Release|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Release|x64.Build.0 = Release|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Release|x86.ActiveCfg = Release|Any CPU
+		{0AE9867C-11AF-4DE2-814B-D147F9E75832}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

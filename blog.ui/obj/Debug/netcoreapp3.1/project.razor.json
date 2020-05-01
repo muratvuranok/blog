@@ -20556,6 +20556,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/muratvuranok/Desktop/blog/blog.ui/Views/PostImages/Index.cshtml",
+      "TargetPath": "Views\\PostImages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/muratvuranok/Desktop/blog/blog.ui/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

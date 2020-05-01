@@ -1,0 +1,67 @@
+@model Guid
+<div  class="row row-col-4 mt-5" id="card"></div>
+
+@section js{
+    <script>
+        $(document).ready(function(){
+            (function(){
+
+$.getJSON("/postimages/_index/@Model", function(data){
+
+ $.each(data,function(key,value){
+
+       $("#card").append(`<div class="col-3 mb-3 border rounded p-2 shadow-sm"> 
+                          <img src="${value.imageUrl}" alt="bilgeadam" class="img-thumbnail mb-2" />
+                          <div class="btn-group d-flex">
+        <a data-id="${value.id}" class="btn btn-dark btn-sm main" href="#" > 
+             <i class="fa fa-cogs text-${value.active ? 'success': 'warning'}"></i> <a>
+        <a data-id="${value.id}" class="btn btn-dark btn-sm delete" href="#" >  <i class="fa fa-trash text-danger"></i> <a> </div> </div>`);
+ })
+})
+            })();
+
+
+            $(document).on("click",".main",function(){
+                var button = $(this);
+                var id = $(button).data("id");
+                $.ajax({
+                    url:"/postimages/_active/"+ id,
+                    dataType:"json",
+                    type:"post",
+                    success:function(result){
+if(result.code == 200){
+    $("#card svg")
+    .removeClass("text-success")
+    .addClass("text-warning");
+
+    $(button).children()
+    .removeClass("text-warning")
+    .addClass("text-success");
+}
+                    },
+                    error:function(error){
+
+                    }
+                })
+            })
+$(document).on("click",".delete",function(){
+    var id = $(this).data("id"); 
+    var buton = $(this);
+    $.ajax({
+        url:"/postimages/_delete/"+id,
+        dataType:"json",
+        type :"post",
+        success:function(result){
+            if(result== 200){
+                $(buton).closest(".col-3").hide("slow")
+            }
+        },
+        error: function(){}
+    })
+})
+
+
+        })
+    </script>
+}
+
