@@ -30,10 +30,4 @@ namespace blog.data.context
         }
     }
 }
-
-// 1, view bölümündeki kategori tasarım alanlarını yoruma al
-// 2, Post controllerdaki, category bölümlerini düzenle
-// 3, post modelini düzenle
-// 4, Model içerisine postcategory class'ı ekle ve düzenle
-// 5, db set'i düzenle
-// 6, View içerisinde select PostCategories olarak değiştir ve scripti düzenle select2
+ 
